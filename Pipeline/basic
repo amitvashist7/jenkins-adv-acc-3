@@ -1,0 +1,12 @@
+
+node {
+
+git credentialsId: 'mygitpass', url: 'https://github.com/amitvashist7/jenkins-adv-acc-3.git'
+
+sh label: 'Clean', script: 'mvn clean -f jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere/pom.xml'
+
+sh label: 'Test Package', script: 'mvn test package -f jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere/pom.xml'
+
+archive 'jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere/target/*.jar'
+
+}
