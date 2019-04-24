@@ -1,0 +1,222 @@
+    1  ls
+    2  exit
+    3  ls
+    4  mkdir myproject
+    5  ls
+    6  cd myproject/
+    7  ls
+    8  echo "# jenkins-adv-acc-3" >> README.md
+    9  ls
+   10  git init 
+   11  git add .
+   12  git commit -m "Initial Commit"
+   13  ls
+   14  git status 
+   15  cat .git/config 
+   16  git remote add origin https://github.com/amitvashist7/jenkins-adv-acc-3.git
+   17  cat .git/config 
+   18  git push 
+   19  git push --set-upstream origin master
+   20  history 
+   21  ls
+   22  echo "Hello" >> hello.txt
+   23  git status 
+   24  git add .
+   25  git status 
+   26  git commit -m "Hello"
+   27  git status 
+   28  git  log 
+   29  git push 
+   30  exit
+   31  ip addr 
+   32  netstat -tulnp
+   33  cat /root/.jenkins/secrets/initialAdminPassword
+   34  date
+   35  apt-get install maven -y 
+   36  mkdir jenkins2
+   37  cd jenkins2/
+   38  ls
+   39  git clone https://github.com/amitvashist7/jenkins2-course-spring-boot.git
+   40  ls
+   41  cd jenkins2-course-spring-boot/
+   42  ls
+   43  cd spring-boot-samples/
+   44  ls
+   45  cd spring-boot-sample-atmosphere/
+   46  ls
+   47  cd ../../
+   48  ls
+   49  cd ..
+   50  ls
+   51  cp -rf jenkins2-course-spring-boot ../myproject/
+   52  ls
+   53  cd ../myproject/
+   54  ls
+   55  cd jenkins2-course-spring-boot/
+   56  ls
+   57  rm -rf .git
+   58  ls
+   59  cd spring-boot-samples/spring-boot-sample-atmosphere/
+   60  ls
+   61  git rm CHANGE.txt Dockerfile docker-compose.yml 
+   62  rm -rf CHANGE.txt Dockerfile docker-compose.yml 
+   63  ;s
+   64  ls
+   65  cd src/
+   66  ls
+   67  cd main/
+   68  ls
+   69  cd java/
+   70  ls
+   71  cd sample/
+   72  ls
+   73  cd atmosphere/
+   74  ls
+   75  cat SampleAtmosphereApplication.java 
+   76  ls
+   77  cd ../../
+   78  ls
+   79  cd ../
+   80  ls
+   81  cd ../../
+   82  ls
+   83  vim pom.xml 
+   84  ls
+   85  mvn -v 
+   86  mvn complie
+   87  ls
+   88  cd ..
+   89  ls
+   90  cd ..
+   91  lls
+   92  cd ..
+   93  ls
+   94  git add . 
+   95  git commit -m "jenkins2-course-spring-boot"
+   96  git push origin master
+   97  ls
+   98  cd jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere/
+   99  ls
+  100  mvn complie
+  101  mvn compile
+  102  mvn test
+  103  mvn package 
+  104  ls 
+  105  cd target/
+  106  ls
+  107  cd ..
+  108  ls
+  109  mvn clean 
+  110  ls
+  111  history 
+  112  ls
+  113  cd 
+  114  ls
+  115  cd .jenkins/
+  116  ls
+  117  cd workspace/
+  118  ls
+  119  cd atmosphere/
+  120  ls
+  121  cd 
+  122  ls
+  123  ls -a 
+  124  cd .jenkins/
+  125  ls
+  126  cd workspace/
+  127  ls
+  128  cd atmosphere/
+  129  ls
+  130  ls jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere/target/*.jar
+  131  ls
+  132  cd jenkins2-course-spring-boot/cd 
+  133  ls
+  134  cd 
+  135  ls
+  136  cd myproject/
+  137  ls
+  138  cd jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere/
+  139  ls
+  140  cd 
+  141  ls
+  142  cd ..
+  143  cd
+  144  cd myproject/
+  145  ls
+  146  mkdir Pipeline
+  147  cd Pipeline/
+  148  ls
+  149  vim basic
+  150  cd ../../
+  151  ls
+  152  cd myproject/
+  153  git add . 
+  154  git commit -m "Pipeline Basics"
+  155  git push origin master
+  156  ls
+  157  vim Pipeline/stage-functions
+  158  git add . 
+  159  git commit -m "Pipeline - Stage & Functions"
+  160  git push origin master
+  161  cd /root/.jenkins/
+  162  ls
+  163  cd workspace/
+  164  ls
+  165  cd atmosphere-chat-box-pipeline
+  166  ls
+  167  cd ..
+  168  ls
+  169  cd ..
+  170  ls
+  171  cd jobs/
+  172  ls
+  173  cd atmosphere-chat-box-pipeline/
+  174  ls
+  175  cd builds/
+  176  ls
+  177  cd 5/
+  178  ls
+  179  cd workflow/
+  180  ls
+  181  cd ..
+  182  ls
+  183  cd ..
+  184  ls
+  185  ls -ltr 
+  186  cd 5
+  187  ls
+  188  cd workflow/
+  189  ls
+  190  cd ../../
+  191  ls
+  192  cd ..
+  193  ls
+  194  ls -ltr 
+  195  cd lastSuccessful
+  196  ls
+  197  cd archive/
+  198  ls
+  199  cd target/
+  200  ls
+  201  pwd
+  202  ls
+  203  history | grep -i apt | grep -i java
+  204  ssh root@172.31.0.11
+  205  cd
+  206  hostname master
+  207  exit 
+  208  netstat -tulnp 
+  209  docker images 
+  210  docker run -itd --name test-2 -p 8082:80 apache-test:v1
+  211  docker run -itd --name test-3 -p 308082:80 apache-test:v1
+  212  docker run -itd --name test-3 -p 38082:80 apache-test:v1
+  213  history 
+  214  ks
+  215  ls
+  216  cd myproject/
+  217  ls
+  218  cd Docker/
+  219  ls
+  220  cd ..
+  221  ls
+  222  history > Docker_Day3
