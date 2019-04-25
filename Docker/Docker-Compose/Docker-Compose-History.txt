@@ -1,0 +1,87 @@
+  363  curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  364  ls
+  365  chmod +x /usr/local/bin/docker-comp
+  366  chmod +x /usr/local/bin/docker-compose 
+  367  docker-compose version 
+  368  ls
+  369  cd myproject/
+  370  ls
+  371  cd Docker/
+  372  ls
+  373  mkdir Docker-Compose
+  374  ls
+  375  cd Docker-Compose/
+  376  ls
+  377  mkdir hello-world
+  378  ls
+  379  cd hello-world/
+  380  ls
+  381  vim docker-compose.yaml
+  382  docker images 
+  383  vim docker-compose.yaml
+  384  docker-compose up 
+  385  docker-compose up -d 
+  386  docker ps 
+  387  docker kill $(docker ps -qa)
+  388  docker rm $(docker ps -qa)
+  389  docker ps 
+  390  docker-compose up -d 
+  391  docker ps 
+  392  vim docker-compose.yaml 
+  393  docker-compose up -d 
+  394  docker-compose ps 
+  395  vim docker-compose.yaml 
+  396  docker-compose up -d 
+  397  docker-compose ps 
+  398  cd ..
+  399  ls
+  400  cd ..
+  401  ls
+  402  cd .
+  403  cd ..
+  404  ls
+  405  git add . 
+  406  git commit -m "Docker Compose - Hello World"
+  407  git push origin master
+  408  ls
+  409  cd Docker/Docker-Compose/
+  410  ls
+  411  mkdir myapache
+  412  ls
+  413  cd ..
+  414  ls
+  415  history 
+  416  ls
+  417  cd Docker-Compose/
+  418  sl
+  419  ls
+  420  cd myapache/
+  421  ls
+  422  cp -rf ../../Dockerfile/apache/* .
+  423  ls
+  424  vim amit.html 
+  425  ls
+  426  vim docker-compose.yaml
+  427  ls
+  428  docker images 
+  429  ls
+  430  vim docker-compose.yaml 
+  431  docker-compose up -d
+  432  docker-compose ps
+  433  ls
+  434  vim amit.html 
+  435  docker-compose up -d
+  436  docker-compose up -d--build
+  437  docker-compose up -d-build
+  438  docker-compose --help
+  439  docker-compose build 
+  440  docker-compose up -d
+  441  ls
+  442  cd ..
+  443  git add . 
+  444  git commit -m "Compose-v2"
+  445  git push origin master
+  446  history 
+  447  ls
+  448  history 
+  449  history > Docker-Compose-History.txt
