@@ -1,0 +1,591 @@
+    1  ls
+    2  exit
+    3  ls
+    4  mkdir myproject
+    5  ls
+    6  cd myproject/
+    7  ls
+    8  echo "# jenkins-adv-acc-3" >> README.md
+    9  ls
+   10  git init 
+   11  git add .
+   12  git commit -m "Initial Commit"
+   13  ls
+   14  git status 
+   15  cat .git/config 
+   16  git remote add origin https://github.com/amitvashist7/jenkins-adv-acc-3.git
+   17  cat .git/config 
+   18  git push 
+   19  git push --set-upstream origin master
+   20  history 
+   21  ls
+   22  echo "Hello" >> hello.txt
+   23  git status 
+   24  git add .
+   25  git status 
+   26  git commit -m "Hello"
+   27  git status 
+   28  git  log 
+   29  git push 
+   30  exit
+   31  ip addr 
+   32  netstat -tulnp
+   33  cat /root/.jenkins/secrets/initialAdminPassword
+   34  date
+   35  apt-get install maven -y 
+   36  mkdir jenkins2
+   37  cd jenkins2/
+   38  ls
+   39  git clone https://github.com/amitvashist7/jenkins2-course-spring-boot.git
+   40  ls
+   41  cd jenkins2-course-spring-boot/
+   42  ls
+   43  cd spring-boot-samples/
+   44  ls
+   45  cd spring-boot-sample-atmosphere/
+   46  ls
+   47  cd ../../
+   48  ls
+   49  cd ..
+   50  ls
+   51  cp -rf jenkins2-course-spring-boot ../myproject/
+   52  ls
+   53  cd ../myproject/
+   54  ls
+   55  cd jenkins2-course-spring-boot/
+   56  ls
+   57  rm -rf .git
+   58  ls
+   59  cd spring-boot-samples/spring-boot-sample-atmosphere/
+   60  ls
+   61  git rm CHANGE.txt Dockerfile docker-compose.yml 
+   62  rm -rf CHANGE.txt Dockerfile docker-compose.yml 
+   63  ;s
+   64  ls
+   65  cd src/
+   66  ls
+   67  cd main/
+   68  ls
+   69  cd java/
+   70  ls
+   71  cd sample/
+   72  ls
+   73  cd atmosphere/
+   74  ls
+   75  cat SampleAtmosphereApplication.java 
+   76  ls
+   77  cd ../../
+   78  ls
+   79  cd ../
+   80  ls
+   81  cd ../../
+   82  ls
+   83  vim pom.xml 
+   84  ls
+   85  mvn -v 
+   86  mvn complie
+   87  ls
+   88  cd ..
+   89  ls
+   90  cd ..
+   91  lls
+   92  cd ..
+   93  ls
+   94  git add . 
+   95  git commit -m "jenkins2-course-spring-boot"
+   96  git push origin master
+   97  ls
+   98  cd jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere/
+   99  ls
+  100  mvn complie
+  101  mvn compile
+  102  mvn test
+  103  mvn package 
+  104  ls 
+  105  cd target/
+  106  ls
+  107  cd ..
+  108  ls
+  109  mvn clean 
+  110  ls
+  111  history 
+  112  ls
+  113  cd 
+  114  ls
+  115  cd .jenkins/
+  116  ls
+  117  cd workspace/
+  118  ls
+  119  cd atmosphere/
+  120  ls
+  121  cd 
+  122  ls
+  123  ls -a 
+  124  cd .jenkins/
+  125  ls
+  126  cd workspace/
+  127  ls
+  128  cd atmosphere/
+  129  ls
+  130  ls jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere/target/*.jar
+  131  ls
+  132  cd jenkins2-course-spring-boot/cd 
+  133  ls
+  134  cd 
+  135  ls
+  136  cd myproject/
+  137  ls
+  138  cd jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere/
+  139  ls
+  140  cd 
+  141  ls
+  142  cd ..
+  143  cd
+  144  cd myproject/
+  145  ls
+  146  mkdir Pipeline
+  147  cd Pipeline/
+  148  ls
+  149  vim basic
+  150  cd ../../
+  151  ls
+  152  cd myproject/
+  153  git add . 
+  154  git commit -m "Pipeline Basics"
+  155  git push origin master
+  156  ls
+  157  vim Pipeline/stage-functions
+  158  git add . 
+  159  git commit -m "Pipeline - Stage & Functions"
+  160  git push origin master
+  161  cd /root/.jenkins/
+  162  ls
+  163  cd workspace/
+  164  ls
+  165  cd atmosphere-chat-box-pipeline
+  166  ls
+  167  cd ..
+  168  ls
+  169  cd ..
+  170  ls
+  171  cd jobs/
+  172  ls
+  173  cd atmosphere-chat-box-pipeline/
+  174  ls
+  175  cd builds/
+  176  ls
+  177  cd 5/
+  178  ls
+  179  cd workflow/
+  180  ls
+  181  cd ..
+  182  ls
+  183  cd ..
+  184  ls
+  185  ls -ltr 
+  186  cd 5
+  187  ls
+  188  cd workflow/
+  189  ls
+  190  cd ../../
+  191  ls
+  192  cd ..
+  193  ls
+  194  ls -ltr 
+  195  cd lastSuccessful
+  196  ls
+  197  cd archive/
+  198  ls
+  199  cd target/
+  200  ls
+  201  pwd
+  202  ls
+  203  history | grep -i apt | grep -i java
+  204  ssh root@172.31.0.11
+  205  cd
+  206  hostname master
+  207  exit 
+  208  netstat -tulnp 
+  209  docker images 
+  210  docker run -itd --name test-2 -p 8082:80 apache-test:v1
+  211  docker run -itd --name test-3 -p 308082:80 apache-test:v1
+  212  docker run -itd --name test-3 -p 38082:80 apache-test:v1
+  213  history 
+  214  ks
+  215  ls
+  216  cd myproject/
+  217  ls
+  218  cd Docker/
+  219  ls
+  220  cd ..
+  221  ls
+  222  history > Docker_Day3
+  223  git add . 
+  224  git commit -m "DockerFile"
+  225  git push origin master
+  226  ls
+  227  cd Docker/Dockerfile/apache/
+  228  kls
+  229  ls
+  230  apt-get update
+  231  ls
+  232  apt-get update 
+  233  apt-get install –y apt-transport-https ca-certificates curl software-properties-common
+  234  apt-get install  apt-transport-https ca-certificates curl software-properties-common -y
+  235  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  236  add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu   $(lsb_release -cs)  stable"
+  237  apt-get update
+  238  apt-get install docker-ce -y
+  239  docker version 
+  240  docker run hello-world
+  241  ls
+  242  docker images 
+  243  docker pull ubuntu
+  244  docker images 
+  245  cat /etc/*-release
+  246  docker pull centos
+  247  docker images
+  248  cat /etc/*-release
+  249  docker run -it ubuntu 
+  250  docker ps 
+  251  docker ps -a
+  252  docker run -it ubuntu 
+  253  docker ps -a
+  254  docker run -it ubuntu 
+  255  docker ps -a 
+  256  docker start 3666ec9eb325
+  257  docker ps
+  258  docker attach 3666ec9eb325
+  259  docker ps
+  260  docker kill 3666ec9eb325
+  261  docker ps
+  262  docker ps -a 
+  263  docker rm 3666ec9eb325
+  264  docker ps -a 
+  265  docker ps 
+  266  docker ps -a
+  267  docker ps -aq
+  268  docker rm $(docker ps -aq)
+  269  history 
+  270  ls
+  271  docker ps 
+  272  docker run -it --name myapache-test-1 ubuntu 
+  273  docker ps 
+  274  docker inspect myapache-test-1
+  275  ip addr 
+  276  curl 172.17.0.2
+  277  history 
+  278  docker ps 
+  279  curl 172.17.0.2
+  280  docker stop myapache-test-1
+  281  docker ps 
+  282  docker start myapache-test-1
+  283  curl 172.17.0.2
+  284  docker attach myapache-test-1
+  285  curl 172.17.0.2
+  286  docker stop myapache-test-1
+  287  docker ps 
+  288  docker start myapache-test-1
+  289  curl 172.17.0.2
+  290  docker commit -p -m "My First Apache" myapache-test-1 myapachetest:v1
+  291  docker images
+  292  docker run -it --name myapache-test-2 myapachetest:v1 
+  293  curl 172.17.0.2
+  294  curl 172.17.0.3
+  295  docker ps -aq
+  296  docker kill $(docker ps -aq)
+  297  docker rm $(docker ps -aq)
+  298  docker ps -a 
+  299  docker images 
+  300  history 
+  301  docker images 
+  302  docker login 
+  303  docker push myapachetest:v1
+  304  docker tag myapachetest:v1 amitvashist7/myapachetest:v1
+  305  docker images 
+  306  docker push amitvashist7/myapachetest:v1
+  307  docker run -it amitvashist7/myapachetest:v1
+  308  curl 172.17.0.2
+  309  docker commit -p -m "My First Apache- Update2" 6c7fb7b31c41 amitvashist7/myapachetest:v2
+  310  docker ps -a 
+  311  docker kill $(docker ps -aq)
+  312  docker rm $(docker ps -aq)
+  313  docker ps 
+  314  docker ps -a
+  315  docker images
+  316  docker run -itd amitvashist7/myapachetest:v1
+  317  docker run -itd amitvashist7/myapachetest:v2
+  318  docker ps 
+  319  curl 172.17.0.2
+  320  curl 172.17.0.3
+  321  docker push amitvashist7/myapachetest:v2
+  322  history 
+  323  sl
+  324  ls
+  325  cd myproject/
+  326  ls
+  327  mkdir Docker
+  328  cd Docker/
+  329  ls
+  330  mkdir Dockerfile
+  331  cd Dockerfile/
+  332  ls
+  333  mkdir apache
+  334  ls
+  335  cd apache/
+  336  ls
+  337  vim Dockerfile
+  338  docker build -t apache-test:v1 .
+  339  ls
+  340  vim amit.html
+  341  ls
+  342  docker build -t apache-test:v1 .
+  343  docker images 
+  344  docker run -itd apache-test:v1
+  345  docker ps 
+  346  docker inspect 1e4c723f204f
+  347  curl 172.17.0.4
+  348  ls
+  349  vim amit.html 
+  350  docker build -t apache-test:v2 .
+  351  docker images 
+  352  docker run -itd apache-test:v2
+  353  curl 172.17.0.5
+  354  docker run -itd apache-test:v2 -P 308080:80
+  355  docker run -itd apache-test:v2 -p 308080:80
+  356  ls
+  357  docker run -itd -p 308080:80 apache-test:v2 
+  358  docker run -itd apache-test:v2 -p 8080:80 
+  359  docker run -itd --name test01 -p 8080:80 apache-test:v2 
+  360  docker ps 
+  361  netstat -tulnp
+  362  cd
+  363  curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  364  ls
+  365  chmod +x /usr/local/bin/docker-comp
+  366  chmod +x /usr/local/bin/docker-compose 
+  367  docker-compose version 
+  368  ls
+  369  cd myproject/
+  370  ls
+  371  cd Docker/
+  372  ls
+  373  mkdir Docker-Compose
+  374  ls
+  375  cd Docker-Compose/
+  376  ls
+  377  mkdir hello-world
+  378  ls
+  379  cd hello-world/
+  380  ls
+  381  vim docker-compose.yaml
+  382  docker images 
+  383  vim docker-compose.yaml
+  384  docker-compose up 
+  385  docker-compose up -d 
+  386  docker ps 
+  387  docker kill $(docker ps -qa)
+  388  docker rm $(docker ps -qa)
+  389  docker ps 
+  390  docker-compose up -d 
+  391  docker ps 
+  392  vim docker-compose.yaml 
+  393  docker-compose up -d 
+  394  docker-compose ps 
+  395  vim docker-compose.yaml 
+  396  docker-compose up -d 
+  397  docker-compose ps 
+  398  cd ..
+  399  ls
+  400  cd ..
+  401  ls
+  402  cd .
+  403  cd ..
+  404  ls
+  405  git add . 
+  406  git commit -m "Docker Compose - Hello World"
+  407  git push origin master
+  408  ls
+  409  cd Docker/Docker-Compose/
+  410  ls
+  411  mkdir myapache
+  412  ls
+  413  cd ..
+  414  ls
+  415  history 
+  416  ls
+  417  cd Docker-Compose/
+  418  sl
+  419  ls
+  420  cd myapache/
+  421  ls
+  422  cp -rf ../../Dockerfile/apache/* .
+  423  ls
+  424  vim amit.html 
+  425  ls
+  426  vim docker-compose.yaml
+  427  ls
+  428  docker images 
+  429  ls
+  430  vim docker-compose.yaml 
+  431  docker-compose up -d
+  432  docker-compose ps
+  433  ls
+  434  vim amit.html 
+  435  docker-compose up -d
+  436  docker-compose up -d--build
+  437  docker-compose up -d-build
+  438  docker-compose --help
+  439  docker-compose build 
+  440  docker-compose up -d
+  441  ls
+  442  cd ..
+  443  git add . 
+  444  git commit -m "Compose-v2"
+  445  git push origin master
+  446  history 
+  447  ls
+  448  history 
+  449  history > Docker-Compose-History.txt
+  450  vim Docker-Compose-History.txt 
+  451  ls
+  452  git add . 
+  453  git commit -m "Docker-Compose-History"
+  454  git push origin master
+  455  ls
+  456  cd ..
+  457  ls
+  458  cd 
+  459  cd myproject/
+  460  ls
+  461  cd /root/.jenkins/
+  462  ls
+  463  cd workspace/
+  464  ls
+  465  cd atmosphere-chat-box-pipeline
+  466  ls
+  467  cd Pipeline/
+  468  ls
+  469  cd ..
+  470  ls
+  471  cd jenkins2-course-spring-boot/
+  472  ls
+  473  cd spring-boot-samples/
+  474  ls
+  475  cd spring-boot-sample-atmosphere
+  476  ls
+  477  cd 
+  478  ls
+  479  cd myproject/
+  480  ls
+  481  cd jenkins2-course-spring-boot/
+  482  s
+  483  cd spring-boot-samples/spring-boot-sample-atmosphere/
+  484  ls
+  485  vim Dockerfile
+  486  ls
+  487  vim Dockerfile
+  488  ls
+  489  cp -rf ../../../Docker/Docker-Compose/myapache/docker-compose.yaml .
+  490  ls
+  491  vim docker-compose.yaml 
+  492  ls
+  493  git add .
+  494  git commit -m "Pipeline Docker Stage Env."
+  495  git push origin master
+  496  docker ps -a 
+  497  docker kill $(docker ps -aq)
+  498  docker rm $(docker ps -aq)
+  499  docker ps 
+  500  docker ps -a
+  501  docker ps 
+  502  ls
+  503  cd ../../
+  504  ls
+  505  cd ..
+  506  ls
+  507  cd Pipeline/
+  508  ls
+  509  vim stage-deployment
+  510  git add . 
+  511  git commit -m "Pipeline Code"
+  512  git push origin master
+  513  ls
+  514  lw
+  515  cd 
+  516  ls
+  517  apt-get install ansible -y 
+  518  ls
+  519  cd myproject/
+  520  ls
+  521  mkdir ansible
+  522  ls
+  523  cd ansible/
+  524  ls
+  525  mkdir demo1
+  526  cd demo1/
+  527  ls
+  528  vim inventory
+  529  cat inventory 
+  530  ssh 172.31.0.11
+  531  ssh 172.31.0.12
+  532  ls
+  533  cat inventory 
+  534  ssh 172.31.0.12
+  535  ls
+  536  cat inventory 
+  537  ansible all -i inventory -m ping -u root -k 
+  538  ansible all -i inventory -m ping -u root -k -vvv
+  539  apt-get install sshpass -y 
+  540  service sshd restart
+  541  ansible all -i inventory -m ping -u root -k 
+  542  apt-get install python2.7
+  543  ls
+  544  vim inventory 
+  545  ansible all -i inventory -m ping -u root -k 
+  546  ls
+  547  cat inventory 
+  548  ansible all -i inventory -m ping -u root -k 
+  549  ls
+  550  vim inventory 
+  551  ansible all -i inventory -m ping -u root -k 
+  552  cat inventory 
+  553  ls
+  554  cd ..
+  555  ls
+  556  cp -rf demo1 demo2
+  557  ls
+  558  vim demo2/inventory 
+  559  ansible all -i inventory -m ping -u root -k 
+  560  ls
+  561  ansible all -i demo2/inventory -m ping -u root -k 
+  562  ansible web -i demo2/inventory -m ping -u root -k 
+  563  ansible db -i demo2/inventory -m ping -u root -k 
+  564  ls
+  565  vim demo2/inventory 
+  566  cat demo2/inventory 
+  567  ansible all -i demo2/inventory -m ping -u root -k 
+  568  ansible web:db -i demo2/inventory -m ping -u root -k 
+  569  vim demo2/inventory 
+  570  ansible web:&prod -i demo2/inventory -m ping -u root -k 
+  571  ansible 'web:&prod' -i demo2/inventory -m ping -u root -k 
+  572  cat demo2/inventory 
+  573  ansible 'db:&prod' -i demo2/inventory -m ping -u root -k 
+  574  ls
+  575  vim demo2/inventory 
+  576  ansible 'web:&prod' -i demo2/inventory -m ping -u root -k 
+  577  vim demo2/inventory 
+  578  ansible 'web:&prod' -i demo2/inventory -m ping -u root -k 
+  579  ansible 'web:&prod:!python3' -i demo2/inventory -m ping -u root -k 
+  580  history 
+  581  ls
+  582  vim demo2/inventory 
+  583  ansible dc -i demo2/inventory -m ping -u root -k 
+  584  vim demo2/inventory 
+  585  ansible dc -i demo2/inventory -m ping 
+  586  ansible prod -i demo2/inventory -m ping 
+  587  ansible prod -i demo2/inventory -m pingls 
+  588  ls
+  589  cat demo2/inventory 
+  590  ls
+  591  history > Day4_Ansible.txt

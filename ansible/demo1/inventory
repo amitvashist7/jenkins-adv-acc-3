@@ -1,0 +1,2 @@
+172.31.0.11 ansible_python_interpreter=/usr/bin/python2.7
+172.31.0.12 ansible_python_interpreter=/usr/bin/python2.7
