@@ -1,0 +1,33 @@
+node {
+    
+stage('Git CheckOut') {    
+git url: 'https://github.com/amitvashist7/jenkins-adv-acc-3.git'
+}
+
+def project_path = "jenkins2-course-spring-boot/spring-boot-samples/spring-boot-sample-atmosphere"
+dir(project_path) {
+
+stage('Clean Old Packages') {
+sh label: 'Clean', script: 'mvn clean'
+}
+stage('Maven Compile') {
+sh label: 'Comile', script: 'mvn compile'
+}
+stage('Maven Test') {
+sh label: 'Testing', script: 'mvn test'
+}
+
+stage('Maven Package') {
+sh label: 'Testing', script: 'mvn package'
+}
+
+stage('Archive Package') {
+archive 'target/*.jar'
+}
+
+stage('Deploy Code into DockerBased Staging Env.') {
+sh label: 'Docker-Compose', script: 'docker-compose up -d --build'
+}
+
+}
+}
