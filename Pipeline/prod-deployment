@@ -37,7 +37,7 @@ sh label: 'Copy', script: "echo '<h1>TASK BUILD ID: ${env.BUILD_DISPLAY_NAME}</h
 
 
 stage('Deploy Code to Prod Env.') {
-sh label: 'Copy', script: 'ansible-playbook -i ansible/demo5/inventory ansible /demo5/webserver.yaml'
+sh label: 'Copy', script: 'ansible-playbook -i ansible/demo5/inventory ansible/demo5/webserver.yaml'
 }
 }
 }
