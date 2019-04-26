@@ -32,7 +32,7 @@ sh label: 'Docker-Compose', script: 'docker-compose up -d --build'
 
 stage('Getting Ready for Ansible') {
 sh label: 'Copy', script: 'cp -rf target/*.jar ../../../ansible/demo5/templates/atmosphere-v1.jar'
-sh label: 'Copy', script: "echo '<h1>TASK BUILD ID: ${env.BUILD_DISPLAY_NAME}</h1>'" > ../../../ansible/demo5/templates/index.html'
+sh label: 'Copy', script: "echo '<h1>TASK BUILD ID: ${env.BUILD_DISPLAY_NAME}</h1>' > ../../../ansible/demo5/templates/index.html"
 }
 
 
